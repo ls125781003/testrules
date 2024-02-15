@@ -211,6 +211,7 @@ async function getArtistWorks(artistItem, page, type) {
         dm_img_list: "[]",
         dm_img_str: "V2ViR0wgMS4wIChPcGVuR0wgRVMgMi4wIENocm9taXVtKQ",
         dm_cover_img_str: "QU5HTEUgKE5WSURJQSwgTlZJRElBIEdlRm9yY2UgR1RYIDE2NTAgKDB4MDAwMDFGOTEpIERpcmVjdDNEMTEgdnNfNV8wIHBzXzVfMCwgRDNEMTEpR29vZ2xlIEluYy4gKE5WSURJQS",
+        dm_img_inter: '{"ds":[],"wh":[0,0,0],"of":[0,0,0]}',
         wts: now.toString(),
     };
     const w_rid = getRid(params);
@@ -295,8 +296,11 @@ async function getTopLists() {
         title: "每周必看",
         data: [],
     };
-    const weeklyRes = await axios_1.default.get("https://api.bilibili.com/x/web-interface/popular/series/list");
-    console.log(weeklyRes.data);
+    const weeklyRes = await axios_1.default.get("https://api.bilibili.com/x/web-interface/popular/series/list", {
+        headers: {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        },
+    });
     weekly.data = weeklyRes.data.data.list.slice(0, 8).map((e) => ({
         id: `popular/series/one?number=${e.number}`,
         title: e.subject,
@@ -361,7 +365,7 @@ async function getTopLists() {
             title: "动物圈",
         },
         {
-            id: "ranking/v2?rid=115&type=all",
+            id: "ranking/v2?rid=155&type=all",
             title: "时尚",
         },
         {
@@ -429,7 +433,7 @@ async function importMusicSheet(urlLike) {
 module.exports = {
     platform: "bilibili",
     appVersion: ">=0.0",
-    version: "0.1.11",
+    version: "0.1.15",
     author: "猫头猫",
     cacheControl: "no-cache",
     srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/bilibili/index.js",
