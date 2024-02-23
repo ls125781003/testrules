@@ -436,7 +436,7 @@ module.exports = {
     version: "0.1.15",
     author: "猫头猫",
     cacheControl: "no-cache",
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/bilibili/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/bilibili/index.js",
     primaryKey: ["id", "aid", "bvid", "cid"],
     hints: {
         importMusicSheet: [
