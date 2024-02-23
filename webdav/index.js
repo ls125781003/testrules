@@ -102,7 +102,7 @@ module.exports = {
     ],
     version: "0.0.2",
     supportedSearchType: ["music"],
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/webdav/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/webdav/index.js",
     cacheControl: "no-cache",
     search(query, page, type) {
         if (type === "music") {
