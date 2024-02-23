@@ -27,7 +27,7 @@ module.exports = {
     platform: "全民K歌",
     version: "0.1.1",
     author: '猫头猫',
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/qmkg/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/qmkg/index.js",
     cacheControl: "no-store",
     async getMediaSource(musicItem) {
         if (musicItem.shareid) {
