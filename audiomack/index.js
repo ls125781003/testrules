@@ -448,7 +448,7 @@ module.exports = {
     version: "0.0.2",
     author: '猫头猫',
     primaryKey: ["id", "url_slug"],
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/audiomack/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/audiomack/index.js",
     cacheControl: "no-cache",
     async search(query, page, type) {
         if (type === "music") {
