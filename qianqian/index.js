@@ -227,7 +227,7 @@ module.exports = {
     platform: "千千音乐",
     author: '猫头猫',
     version: "0.1.3",
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/qianqian/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/qianqian/index.js",
     cacheControl: "no-cache",
     supportedSearchType: ["music", "album", "artist"],
     async search(query, page, type) {
