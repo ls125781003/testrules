@@ -189,7 +189,7 @@ module.exports = {
     author: '猫头猫',
     version: "0.0.1",
     supportedSearchType: ["music"],
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/youtube/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/youtube/index.js",
     cacheControl: "no-cache",
     search,
     getMediaSource,
