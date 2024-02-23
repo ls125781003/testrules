@@ -180,7 +180,7 @@ module.exports = {
     author: '猫头猫',
     version: "0.1.4",
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/maoerfm/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/maoerfm/index.js",
     cacheControl: "no-cache",
     supportedSearchType: ["music", "album",],
     async search(query, page, type) {
