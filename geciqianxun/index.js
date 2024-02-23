@@ -41,7 +41,7 @@ async function getLyric(musicItem) {
 module.exports = {
     platform: "歌词千寻",
     version: "0.0.0",
-    srcUrl: 'https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/geciqianxun/index.js',
+    srcUrl: 'https://raw.githubusercontent.com/ls125781003/testrules/main/geciqianxun/index.js',
     cacheControl: "no-store",
     supportedSearchType: ['lyric'],
     search,
