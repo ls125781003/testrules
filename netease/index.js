@@ -513,7 +513,7 @@ module.exports = {
     author: '猫头猫',
     version: "0.2.2",
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/netease/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/netease/index.js",
     cacheControl: "no-store",
     hints: {
         importMusicSheet: [
