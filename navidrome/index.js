@@ -86,7 +86,7 @@ module.exports = {
     version: "0.0.0",
     author: '猫头猫',
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/navidrome/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/navidrome/index.js",
     cacheControl: "no-cache",
     userVariables: [
         {
