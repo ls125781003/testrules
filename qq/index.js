@@ -487,7 +487,7 @@ module.exports = {
     platform: "QQ音乐",
     author: "猫头猫",
     version: "0.2.2-alpha.3",
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/qq/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/qq/index.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [
