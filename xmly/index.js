@@ -164,7 +164,7 @@ module.exports = {
     author: '猫头猫',
     version: "0.1.6",
     supportedSearchType: ["music", "album", "artist"],
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/xmly/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/xmly/index.js",
     cacheControl: "no-cache",
     search,
     getAlbumInfo,
