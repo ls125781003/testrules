@@ -141,7 +141,7 @@ module.exports = {
     platform: "快手",
     version: "0.0.1",
     author: '猫头猫',
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/kuaishou/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/kuaishou/index.js",
     cacheControl: "no-cache",
     supportedSearchType: ["music"],
     async search(query, page, type) {
