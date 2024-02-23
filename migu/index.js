@@ -603,7 +603,7 @@ module.exports = {
     },
     primaryKey: ["id", "copyrightId"],
     cacheControl: "no-cache",
-    srcUrl: "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/testrules/main/migu/index.js",
+    srcUrl: "https://raw.githubusercontent.com/ls125781003/testrules/main/migu/index.js",
     supportedSearchType: ["music", "album", "sheet", "artist", "lyric"],
     getMediaSource,
     async search(query, page, type) {
