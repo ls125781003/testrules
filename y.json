@@ -14,12 +14,12 @@
 	{"name":"千千音乐","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/qianqian/index.js","version":"0.1.3"},
 	{"name":"QQ音乐","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/qq/index.js","version":"0.2.2-alpha.3"},
 	{"name":"suno","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/suno/index.js","version":"0.0.0"},
-    {"name":"WebDAV","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/webdav/index.js","version":"0.0.2"},
-    {"name":"udio","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/udio/index.js","version":"0.0.0"},
+        {"name":"WebDAV","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/webdav/index.js","version":"0.0.2"},
+        {"name":"udio","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/udio/index.js","version":"0.0.0"},
 	{"name":"喜马拉雅","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/xmly/index.js","version":"0.1.6"},
 	{"name":"Youtube","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/youtube/index.js","version":"0.0.1"},
 	{"name":"歌词网","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/geciwang/index.js","version":"0.0.0"},
-    {"name":"歌词千寻","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/geciqianxun/index.js","version":"0.0.0"},
+        {"name":"歌词千寻","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/geciqianxun/index.js","version":"0.0.0"},
 	{"name":"音悦台","url":"https://raw.githubusercontent.com/ls125781003/testrules/main/yinyuetai/index.js","version":"0.0.1"}
     ]
 }
